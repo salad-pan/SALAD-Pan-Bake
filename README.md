@@ -90,50 +90,105 @@ Coming soon.
 
 For more details, please visit this [website](https://salad-pan.github.io/).
 
-**Table 1.** Quantitative results on the WorldView-3 (WV3) dataset. Best and second-best results are in **bold** and <u>underlined</u>.
+<p><b>Table 1.</b> Quantitative results on the WorldView-3 (WV3) dataset. Best and second-best results are in <b>bold</b> and <u>underlined</u>.</p>
 
-| Models | Pub/Year | Q<sub>8</sub> ↑ | SAM ↓ | ERGAS ↓ | SCC ↑ | D<sub>λ</sub> ↓ | D<sub>s</sub> ↓ | HQNR ↑ |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| PaNNet | ICCV’17 | 0.891±0.045 | 3.613±0.787 | 2.664±0.347 | 0.943±0.018 | 0.017±0.008 | 0.047±0.014 | 0.937±0.015 |
-| FusionNet | TGRS’20 | 0.904±0.092 | 3.324±0.411 | 2.465±0.603 | 0.958±0.023 | 0.024±0.011 | 0.036±0.016 | 0.940±0.019 |
-| LAGConv | AAAI’22 | 0.910±0.114 | 3.104±1.119 | 2.300±0.911 | 0.980±0.043 | 0.036±0.009 | 0.032±0.016 | 0.934±0.011 |
-| BiMPAN | ACMM’23 | 0.915±0.087 | 2.984±0.601 | 2.257±0.552 | 0.984±0.005 | 0.017±0.019 | 0.035±0.015 | 0.949±0.026 |
-| ARConv | CVPR’25 | 0.916±0.083 | 2.858±0.590 | 2.117±0.528 | 0.989±0.014 | 0.014±0.006 | 0.030±0.007 | 0.958±0.010 |
-| WFANET | AAAI’25 | 0.917±0.088 | 2.855±0.618 | 2.095±0.422 | <u>0.989±0.011</u> | 0.012±0.007 | 0.031±0.009 | 0.957±0.010 |
-| PanDiff | TGRS’23 | 0.898±0.090 | 3.297±0.235 | 2.467±0.166 | 0.980±0.019 | 0.027±0.108 | 0.054±0.047 | 0.920±0.077 |
-| SSDiff | NeurIPS’24 | 0.915±0.086 | 2.843±0.529 | 2.106±0.416 | 0.986±0.004 | 0.013±0.005 | 0.031±0.003 | 0.956±0.016 |
-| SGDiff | CVPR’25 | <u>0.921±0.082</u> | <u>2.771±0.511</u> | <u>2.044±0.449</u> | 0.987±0.009 | <u>0.012±0.005</u> | <u>0.027±0.003</u> | <u>0.960±0.006</u> |
-| **SALAD-PAN** | **Ours** | **0.924±0.064** | **2.689±0.135** | **1.839±0.211** | **0.989±0.007** | **0.010±0.008** | **0.021±0.004** | **0.965±0.007** |
+<div style="overflow-x:auto; width:100%;">
+  <table border="1" cellspacing="0" cellpadding="6" style="border-collapse:collapse; width:100%; min-width:980px; font-size:13px; white-space:nowrap;">
+    <thead>
+      <tr>
+        <th style="text-align:left;">Models</th>
+        <th style="text-align:right;">Pub/Year</th>
+        <th style="text-align:right;">Q<sub>8</sub> ↑</th>
+        <th style="text-align:right;">SAM ↓</th>
+        <th style="text-align:right;">ERGAS ↓</th>
+        <th style="text-align:right;">SCC ↑</th>
+        <th style="text-align:right;">D<sub>λ</sub> ↓</th>
+        <th style="text-align:right;">D<sub>s</sub> ↓</th>
+        <th style="text-align:right;">HQNR ↑</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>PaNNet</td><td style="text-align:right;">ICCV’17</td><td style="text-align:right;">0.891±0.045</td><td style="text-align:right;">3.613±0.787</td><td style="text-align:right;">2.664±0.347</td><td style="text-align:right;">0.943±0.018</td><td style="text-align:right;">0.017±0.008</td><td style="text-align:right;">0.047±0.014</td><td style="text-align:right;">0.937±0.015</td></tr>
+      <tr><td>FusionNet</td><td style="text-align:right;">TGRS’20</td><td style="text-align:right;">0.904±0.092</td><td style="text-align:right;">3.324±0.411</td><td style="text-align:right;">2.465±0.603</td><td style="text-align:right;">0.958±0.023</td><td style="text-align:right;">0.024±0.011</td><td style="text-align:right;">0.036±0.016</td><td style="text-align:right;">0.940±0.019</td></tr>
+      <tr><td>LAGConv</td><td style="text-align:right;">AAAI’22</td><td style="text-align:right;">0.910±0.114</td><td style="text-align:right;">3.104±1.119</td><td style="text-align:right;">2.300±0.911</td><td style="text-align:right;">0.980±0.043</td><td style="text-align:right;">0.036±0.009</td><td style="text-align:right;">0.032±0.016</td><td style="text-align:right;">0.934±0.011</td></tr>
+      <tr><td>BiMPAN</td><td style="text-align:right;">ACMM’23</td><td style="text-align:right;">0.915±0.087</td><td style="text-align:right;">2.984±0.601</td><td style="text-align:right;">2.257±0.552</td><td style="text-align:right;">0.984±0.005</td><td style="text-align:right;">0.017±0.019</td><td style="text-align:right;">0.035±0.015</td><td style="text-align:right;">0.949±0.026</td></tr>
+      <tr><td>ARConv</td><td style="text-align:right;">CVPR’25</td><td style="text-align:right;">0.916±0.083</td><td style="text-align:right;">2.858±0.590</td><td style="text-align:right;">2.117±0.528</td><td style="text-align:right;">0.989±0.014</td><td style="text-align:right;">0.014±0.006</td><td style="text-align:right;">0.030±0.007</td><td style="text-align:right;">0.958±0.010</td></tr>
+      <tr><td>WFANET</td><td style="text-align:right;">AAAI’25</td><td style="text-align:right;">0.917±0.088</td><td style="text-align:right;">2.855±0.618</td><td style="text-align:right;">2.095±0.422</td><td style="text-align:right;"><u>0.989±0.011</u></td><td style="text-align:right;">0.012±0.007</td><td style="text-align:right;">0.031±0.009</td><td style="text-align:right;">0.957±0.010</td></tr>
+      <tr><td>PanDiff</td><td style="text-align:right;">TGRS’23</td><td style="text-align:right;">0.898±0.090</td><td style="text-align:right;">3.297±0.235</td><td style="text-align:right;">2.467±0.166</td><td style="text-align:right;">0.980±0.019</td><td style="text-align:right;">0.027±0.108</td><td style="text-align:right;">0.054±0.047</td><td style="text-align:right;">0.920±0.077</td></tr>
+      <tr><td>SSDiff</td><td style="text-align:right;">NeurIPS’24</td><td style="text-align:right;">0.915±0.086</td><td style="text-align:right;">2.843±0.529</td><td style="text-align:right;">2.106±0.416</td><td style="text-align:right;">0.986±0.004</td><td style="text-align:right;">0.013±0.005</td><td style="text-align:right;">0.031±0.003</td><td style="text-align:right;">0.956±0.016</td></tr>
+      <tr><td>SGDiff</td><td style="text-align:right;">CVPR’25</td><td style="text-align:right;"><u>0.921±0.082</u></td><td style="text-align:right;"><u>2.771±0.511</u></td><td style="text-align:right;"><u>2.044±0.449</u></td><td style="text-align:right;">0.987±0.009</td><td style="text-align:right;"><u>0.012±0.005</u></td><td style="text-align:right;"><u>0.027±0.003</u></td><td style="text-align:right;"><u>0.960±0.006</u></td></tr>
+      <tr><td><b>SALAD-PAN</b></td><td style="text-align:right;"><b>Ours</b></td><td style="text-align:right;"><b>0.924±0.064</b></td><td style="text-align:right;"><b>2.689±0.135</b></td><td style="text-align:right;"><b>1.839±0.211</b></td><td style="text-align:right;"><b>0.989±0.007</b></td><td style="text-align:right;"><b>0.010±0.008</b></td><td style="text-align:right;"><b>0.021±0.004</b></td><td style="text-align:right;"><b>0.965±0.007</b></td></tr>
+    </tbody>
+  </table>
+</div>
 
-**Table 2.** Quantitative results on the QuickBird (QB) dataset. Best and second-best results are in **bold** and <u>underlined</u>.
+<br/>
 
-| Models | Pub/Year | Q<sub>4</sub> ↑ | SAM ↓ | ERGAS ↓ | SCC ↑ | D<sub>λ</sub> ↓ | D<sub>s</sub> ↓ | HQNR ↑ |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| PaNNet | ICCV’17 | 0.885±0.118 | 5.791±0.995 | 5.863±0.413 | 0.948±0.021 | 0.059±0.017 | 0.061±0.010 | 0.883±0.025 |
-| FusionNet | TGRS’20 | 0.925±0.087 | 4.923±0.812 | 4.159±0.351 | 0.956±0.018 | 0.059±0.019 | 0.052±0.009 | 0.892±0.022 |
-| LAGConv | AAAI’22 | 0.916±0.130 | 4.370±0.720 | 3.740±0.290 | 0.959±0.047 | 0.085±0.024 | 0.068±0.014 | 0.853±0.018 |
-| BiMPAN | ACMM’23 | 0.931±0.091 | 4.586±0.821 | 3.840±0.319 | 0.980±0.008 | 0.026±0.020 | 0.040±0.013 | 0.935±0.030 |
-| ARConv | CVPR’25 | 0.936±0.088 | 4.453±0.499 | 3.649±0.401 | **0.987±0.009** | <u>0.019±0.014</u> | 0.034±0.017 | 0.948±0.042 |
-| WFANET | AAAI’25 | 0.935±0.092 | 4.490±0.582 | 3.604±0.337 | <u>0.986±0.008</u> | 0.019±0.016 | <u>0.033±0.019</u> | <u>0.948±0.037</u> |
-| PanDiff | TGRS’23 | 0.934±0.095 | 4.575±0.255 | 3.742±0.353 | 0.980±0.007 | 0.058±0.015 | 0.064±0.020 | 0.881±0.075 |
-| SSDiff | NeurIPS’24 | 0.934±0.094 | 4.464±0.747 | 3.632±0.275 | 0.982±0.008 | 0.031±0.011 | 0.036±0.013 | 0.934±0.021 |
-| SGDiff | CVPR’25 | <u>0.938±0.087</u> | <u>4.353±0.741</u> | <u>3.578±0.290</u> | 0.983±0.007 | 0.023±0.013 | 0.043±0.012 | 0.934±0.011 |
-| **SALAD-PAN** | **Ours** | **0.939±0.088** | **4.198±0.526** | **3.251±0.288** | 0.984±0.009 | **0.017±0.011** | **0.026±0.009** | **0.957±0.010** |
+<p><b>Table 2.</b> Quantitative results on the QuickBird (QB) dataset. Best and second-best results are in <b>bold</b> and <u>underlined</u>.</p>
 
-**Table 3.** Quantitative results on the GaoFen-2 (GF2) dataset. Best and second-best results are in **bold** and <u>underlined</u>.
+<div style="overflow-x:auto; width:100%;">
+  <table border="1" cellspacing="0" cellpadding="6" style="border-collapse:collapse; width:100%; min-width:980px; font-size:13px; white-space:nowrap;">
+    <thead>
+      <tr>
+        <th style="text-align:left;">Models</th>
+        <th style="text-align:right;">Pub/Year</th>
+        <th style="text-align:right;">Q<sub>4</sub> ↑</th>
+        <th style="text-align:right;">SAM ↓</th>
+        <th style="text-align:right;">ERGAS ↓</th>
+        <th style="text-align:right;">SCC ↑</th>
+        <th style="text-align:right;">D<sub>λ</sub> ↓</th>
+        <th style="text-align:right;">D<sub>s</sub> ↓</th>
+        <th style="text-align:right;">HQNR ↑</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>PaNNet</td><td style="text-align:right;">ICCV’17</td><td style="text-align:right;">0.885±0.118</td><td style="text-align:right;">5.791±0.995</td><td style="text-align:right;">5.863±0.413</td><td style="text-align:right;">0.948±0.021</td><td style="text-align:right;">0.059±0.017</td><td style="text-align:right;">0.061±0.010</td><td style="text-align:right;">0.883±0.025</td></tr>
+      <tr><td>FusionNet</td><td style="text-align:right;">TGRS’20</td><td style="text-align:right;">0.925±0.087</td><td style="text-align:right;">4.923±0.812</td><td style="text-align:right;">4.159±0.351</td><td style="text-align:right;">0.956±0.018</td><td style="text-align:right;">0.059±0.019</td><td style="text-align:right;">0.052±0.009</td><td style="text-align:right;">0.892±0.022</td></tr>
+      <tr><td>LAGConv</td><td style="text-align:right;">AAAI’22</td><td style="text-align:right;">0.916±0.130</td><td style="text-align:right;">4.370±0.720</td><td style="text-align:right;">3.740±0.290</td><td style="text-align:right;">0.959±0.047</td><td style="text-align:right;">0.085±0.024</td><td style="text-align:right;">0.068±0.014</td><td style="text-align:right;">0.853±0.018</td></tr>
+      <tr><td>BiMPAN</td><td style="text-align:right;">ACMM’23</td><td style="text-align:right;">0.931±0.091</td><td style="text-align:right;">4.586±0.821</td><td style="text-align:right;">3.840±0.319</td><td style="text-align:right;">0.980±0.008</td><td style="text-align:right;">0.026±0.020</td><td style="text-align:right;">0.040±0.013</td><td style="text-align:right;">0.935±0.030</td></tr>
+      <tr><td>ARConv</td><td style="text-align:right;">CVPR’25</td><td style="text-align:right;">0.936±0.088</td><td style="text-align:right;">4.453±0.499</td><td style="text-align:right;">3.649±0.401</td><td style="text-align:right;"><b>0.987±0.009</b></td><td style="text-align:right;"><u>0.019±0.014</u></td><td style="text-align:right;">0.034±0.017</td><td style="text-align:right;">0.948±0.042</td></tr>
+      <tr><td>WFANET</td><td style="text-align:right;">AAAI’25</td><td style="text-align:right;">0.935±0.092</td><td style="text-align:right;">4.490±0.582</td><td style="text-align:right;">3.604±0.337</td><td style="text-align:right;"><u>0.986±0.008</u></td><td style="text-align:right;">0.019±0.016</td><td style="text-align:right;"><u>0.033±0.019</u></td><td style="text-align:right;"><u>0.948±0.037</u></td></tr>
+      <tr><td>PanDiff</td><td style="text-align:right;">TGRS’23</td><td style="text-align:right;">0.934±0.095</td><td style="text-align:right;">4.575±0.255</td><td style="text-align:right;">3.742±0.353</td><td style="text-align:right;">0.980±0.007</td><td style="text-align:right;">0.058±0.015</td><td style="text-align:right;">0.064±0.020</td><td style="text-align:right;">0.881±0.075</td></tr>
+      <tr><td>SSDiff</td><td style="text-align:right;">NeurIPS’24</td><td style="text-align:right;">0.934±0.094</td><td style="text-align:right;">4.464±0.747</td><td style="text-align:right;">3.632±0.275</td><td style="text-align:right;">0.982±0.008</td><td style="text-align:right;">0.031±0.011</td><td style="text-align:right;">0.036±0.013</td><td style="text-align:right;">0.934±0.021</td></tr>
+      <tr><td>SGDiff</td><td style="text-align:right;">CVPR’25</td><td style="text-align:right;"><u>0.938±0.087</u></td><td style="text-align:right;"><u>4.353±0.741</u></td><td style="text-align:right;"><u>3.578±0.290</u></td><td style="text-align:right;">0.983±0.007</td><td style="text-align:right;">0.023±0.013</td><td style="text-align:right;">0.043±0.012</td><td style="text-align:right;">0.934±0.011</td></tr>
+      <tr><td><b>SALAD-PAN</b></td><td style="text-align:right;"><b>Ours</b></td><td style="text-align:right;"><b>0.939±0.088</b></td><td style="text-align:right;"><b>4.198±0.526</b></td><td style="text-align:right;"><b>3.251±0.288</b></td><td style="text-align:right;">0.984±0.009</td><td style="text-align:right;"><b>0.017±0.011</b></td><td style="text-align:right;"><b>0.026±0.009</b></td><td style="text-align:right;"><b>0.957±0.010</b></td></tr>
+    </tbody>
+  </table>
+</div>
 
-| Models | Pub/Year | Q<sub>4</sub> ↑ | SAM ↓ | ERGAS ↓ | SCC ↑ | D<sub>λ</sub> ↓ | D<sub>s</sub> ↓ | HQNR ↑ |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| PaNNet | ICCV’17 | 0.967±0.013 | 0.997±0.022 | 0.919±0.039 | 0.973±0.011 | 0.017±0.012 | 0.047±0.012 | 0.937±0.023 |
-| FusionNet | TGRS’20 | 0.964±0.014 | 0.974±0.035 | 0.988±0.072 | 0.971±0.012 | 0.040±0.013 | 0.101±0.014 | 0.863±0.018 |
-| LAGConv | AAAI’22 | 0.970±0.011 | 1.080±0.023 | 0.910±0.045 | 0.977±0.006 | 0.033±0.013 | 0.079±0.013 | 0.891±0.021 |
-| BiMPAN | ACMM’23 | 0.965±0.020 | 0.902±0.066 | 0.881±0.058 | 0.972±0.018 | 0.032±0.015 | 0.051±0.014 | 0.918±0.019 |
-| ARConv | CVPR’25 | 0.982±0.013 | 0.710±0.149 | 0.645±0.127 | <u>0.994±0.005</u> | 0.007±0.005 | 0.029±0.019 | 0.963±0.018 |
-| WFANET | AAAI’25 | 0.981±0.007 | 0.751±0.082 | 0.657±0.074 | **0.994±0.002** | **0.003±0.003** | 0.032±0.021 | <u>0.964±0.020</u> |
-| PanDiff | TGRS’23 | 0.979±0.011 | 0.888±0.037 | 0.746±0.031 | 0.988±0.003 | 0.027±0.011 | 0.073±0.013 | 0.903±0.025 |
-| SSDiff | NeurIPS’24 | **0.983±0.007** | <u>0.670±0.124</u> | <u>0.604±0.108</u> | 0.991±0.006 | 0.016±0.009 | 0.027±0.027 | 0.957±0.010 |
-| SGDiff | CVPR’25 | 0.980±0.011 | 0.708±0.119 | 0.668±0.094 | 0.989±0.005 | 0.020±0.013 | <u>0.024±0.022</u> | 0.959±0.011 |
-| **SALAD-PAN** | **Ours** | <u>0.982±0.010</u> | **0.667±0.051** | **0.592±0.088** | 0.991±0.003 | <u>0.005±0.002</u> | **0.022±0.014** | **0.973±0.010** |
+<br/>
+
+<p><b>Table 3.</b> Quantitative results on the GaoFen-2 (GF2) dataset. Best and second-best results are in <b>bold</b> and <u>underlined</u>.</p>
+
+<div style="overflow-x:auto; width:100%;">
+  <table border="1" cellspacing="0" cellpadding="6" style="border-collapse:collapse; width:100%; min-width:980px; font-size:13px; white-space:nowrap;">
+    <thead>
+      <tr>
+        <th style="text-align:left;">Models</th>
+        <th style="text-align:right;">Pub/Year</th>
+        <th style="text-align:right;">Q<sub>4</sub> ↑</th>
+        <th style="text-align:right;">SAM ↓</th>
+        <th style="text-align:right;">ERGAS ↓</th>
+        <th style="text-align:right;">SCC ↑</th>
+        <th style="text-align:right;">D<sub>λ</sub> ↓</th>
+        <th style="text-align:right;">D<sub>s</sub> ↓</th>
+        <th style="text-align:right;">HQNR ↑</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>PaNNet</td><td style="text-align:right;">ICCV’17</td><td style="text-align:right;">0.967±0.013</td><td style="text-align:right;">0.997±0.022</td><td style="text-align:right;">0.919±0.039</td><td style="text-align:right;">0.973±0.011</td><td style="text-align:right;">0.017±0.012</td><td style="text-align:right;">0.047±0.012</td><td style="text-align:right;">0.937±0.023</td></tr>
+      <tr><td>FusionNet</td><td style="text-align:right;">TGRS’20</td><td style="text-align:right;">0.964±0.014</td><td style="text-align:right;">0.974±0.035</td><td style="text-align:right;">0.988±0.072</td><td style="text-align:right;">0.971±0.012</td><td style="text-align:right;">0.040±0.013</td><td style="text-align:right;">0.101±0.014</td><td style="text-align:right;">0.863±0.018</td></tr>
+      <tr><td>LAGConv</td><td style="text-align:right;">AAAI’22</td><td style="text-align:right;">0.970±0.011</td><td style="text-align:right;">1.080±0.023</td><td style="text-align:right;">0.910±0.045</td><td style="text-align:right;">0.977±0.006</td><td style="text-align:right;">0.033±0.013</td><td style="text-align:right;">0.079±0.013</td><td style="text-align:right;">0.891±0.021</td></tr>
+      <tr><td>BiMPAN</td><td style="text-align:right;">ACMM’23</td><td style="text-align:right;">0.965±0.020</td><td style="text-align:right;">0.902±0.066</td><td style="text-align:right;">0.881±0.058</td><td style="text-align:right;">0.972±0.018</td><td style="text-align:right;">0.032±0.015</td><td style="text-align:right;">0.051±0.014</td><td style="text-align:right;">0.918±0.019</td></tr>
+      <tr><td>ARConv</td><td style="text-align:right;">CVPR’25</td><td style="text-align:right;">0.982±0.013</td><td style="text-align:right;">0.710±0.149</td><td style="text-align:right;">0.645±0.127</td><td style="text-align:right;"><u>0.994±0.005</u></td><td style="text-align:right;">0.007±0.005</td><td style="text-align:right;">0.029±0.019</td><td style="text-align:right;">0.963±0.018</td></tr>
+      <tr><td>WFANET</td><td style="text-align:right;">AAAI’25</td><td style="text-align:right;">0.981±0.007</td><td style="text-align:right;">0.751±0.082</td><td style="text-align:right;">0.657±0.074</td><td style="text-align:right;"><b>0.994±0.002</b></td><td style="text-align:right;"><b>0.003±0.003</b></td><td style="text-align:right;">0.032±0.021</td><td style="text-align:right;"><u>0.964±0.020</u></td></tr>
+      <tr><td>PanDiff</td><td style="text-align:right;">TGRS’23</td><td style="text-align:right;">0.979±0.011</td><td style="text-align:right;">0.888±0.037</td><td style="text-align:right;">0.746±0.031</td><td style="text-align:right;">0.988±0.003</td><td style="text-align:right;">0.027±0.011</td><td style="text-align:right;">0.073±0.013</td><td style="text-align:right;">0.903±0.025</td></tr>
+      <tr><td>SSDiff</td><td style="text-align:right;">NeurIPS’24</td><td style="text-align:right;"><b>0.983±0.007</b></td><td style="text-align:right;"><u>0.670±0.124</u></td><td style="text-align:right;"><u>0.604±0.108</u></td><td style="text-align:right;">0.991±0.006</td><td style="text-align:right;">0.016±0.009</td><td style="text-align:right;">0.027±0.027</td><td style="text-align:right;">0.957±0.010</td></tr>
+      <tr><td>SGDiff</td><td style="text-align:right;">CVPR’25</td><td style="text-align:right;">0.980±0.011</td><td style="text-align:right;">0.708±0.119</td><td style="text-align:right;">0.668±0.094</td><td style="text-align:right;">0.989±0.005</td><td style="text-align:right;">0.020±0.013</td><td style="text-align:right;"><u>0.024±0.022</u></td><td style="text-align:right;">0.959±0.011</td></tr>
+      <tr><td><b>SALAD-PAN</b></td><td style="text-align:right;"><b>Ours</b></td><td style="text-align:right;"><u>0.982±0.010</u></td><td style="text-align:right;"><b>0.667±0.051</b></td><td style="text-align:right;"><b>0.592±0.088</b></td><td style="text-align:right;">0.991±0.003</td><td style="text-align:right;"><u>0.005±0.002</u></td><td style="text-align:right;"><b>0.022±0.014</b></td><td style="text-align:right;"><b>0.973±0.010</b></td></tr>
+    </tbody>
+  </table>
+</div>
 
 <p align="center">
   <a href="https://salad-pan.github.io/assets/fig3.pdf">
