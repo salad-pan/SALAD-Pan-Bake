@@ -192,12 +192,14 @@ For more details, please visit this [website](https://salad-pan.github.io/).
 
 <p align="center">
   <a href="https://salad-pan.github.io/assets/fig3.pdf">
-    <img src="https://salad-pan.github.io/assets/fig3-1.png" alt="Reduced Resolution" width="100%" />
+    <!-- <img src="https://salad-pan.github.io/assets/fig3-1.png" alt="Reduced Resolution" width="100%" /> -->
+    <img src="https://salad-pan.github.io/assets/fig3.webp" alt="Reduced Resolution" width="100%" />
   </a>
   <br>
   <em>Visual comparison on WorldView-3 (WV-3) and QuickBird (QB) dataset at reduced resolution.</em>
   <a href="https://salad-pan.github.io/assets/fig4.pdf">
-    <img src="https://salad-pan.github.io/assets/fig4-1.png" alt="Full Resolution" width="100%" />
+    <!-- <img src="https://salad-pan.github.io/assets/fig4-1.png" alt="Full Resolution" width="100%" /> -->
+    <img src="https://salad-pan.github.io/assets/fig4.webp" alt="Full Resolution" width="100%" />
   </a>
   <em>Visual comparison on WorldView-3 (WV-3) and QuickBird (QB) dataset at full resolution.</em>
 </p>
