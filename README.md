@@ -14,7 +14,7 @@ This repository is the official implementation of [SALAD-Pan]().
 <br/>
 
 [![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://salad-pan.github.io)
-[![arXiv](https://img.shields.io/badge/arXiv-2212.11565-b31b1b.svg)](https://arxiv.org/abs/2602.04473)
+[![arXiv](https://img.shields.io/badge/arXiv-2602.04473-b31b1b.svg)](https://arxiv.org/abs/2602.04473)
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/xxfer/SALAD-Pan)
 
 <p align="center">
