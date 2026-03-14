@@ -19,7 +19,7 @@ This repository is the official implementation of [SALAD-Pan](https://arxiv.org/
 
 <p align="center">
   <a href="https://salad-pan.github.io/assets/fig1.pdf">
-    <img src="https://salad-pan.github.io/assets/fig1-1.png" alt="Structure" width="100%" />
+    <img src="https://salad-pan.github.io/assets/fig1.webp" alt="Structure" width="100%" />
   </a>
   <br/>
   <em>Given a PAN–LRMS image pair, SALAD-Pan fine-tunes a pre-trained diffusion model to generate a HRMS.</em>
