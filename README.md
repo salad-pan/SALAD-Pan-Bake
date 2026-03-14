@@ -88,7 +88,7 @@ Coming soon.
 
 ## Results
 
-🚨We strongly recommend that you visit this [website](https://salad-pan.github.io/) for a better reading experience.
+**🚨We strongly recommend that you visit this [website](https://salad-pan.github.io/) for a better reading experience.**
 
 <p><b>Table 1.</b> Quantitative results on the WorldView-3 (WV3) dataset. Best and second-best results are in <b>bold</b> and <u>underlined</u>.</p>
 
