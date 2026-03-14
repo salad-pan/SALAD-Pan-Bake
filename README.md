@@ -9,7 +9,7 @@ This repository is the official implementation of [SALAD-Pan](https://arxiv.org/
 [Haokui Zhang](https://scholar.google.com/citations?hl=en&user=m3gPwCoAAAAJ), 
 [Guoting Wei](https://scholar.google.com/citations?hl=en&user=NW8rUFkAAAAJ), 
 [Shengqin Jiang](https://ieeexplore.ieee.org/author/37086409411), 
-[Ying Li](), 
+[Ying Li](https://teacher.nwpu.edu.cn/2005000096.html), 
 [Chunhua Shen](https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ)
 <br/>
 
