@@ -108,25 +108,115 @@ Coming soon.
       </tr>
     </thead>
     <tbody>
-      <tr><td>PaNNet</td><td style="text-align:right;">ICCV’17</td><td style="text-align:right;">0.891±0.045</td><td style="text-align:right;">3.613±0.787</td><td style="text-align:right;">2.664±0.347</td><td style="text-align:right;">0.943±0.018</td><td style="text-align:right;">0.017±0.008</td><td style="text-align:right;">0.047±0.014</td><td style="text-align:right;">0.937±0.015</td></tr>
-      <tr><td>FusionNet</td><td style="text-align:right;">TGRS’20</td><td style="text-align:right;">0.904±0.092</td><td style="text-align:right;">3.324±0.411</td><td style="text-align:right;">2.465±0.603</td><td style="text-align:right;">0.958±0.023</td><td style="text-align:right;">0.024±0.011</td><td style="text-align:right;">0.036±0.016</td><td style="text-align:right;">0.940±0.019</td></tr>
-      <tr><td>LAGConv</td><td style="text-align:right;">AAAI’22</td><td style="text-align:right;">0.910±0.114</td><td style="text-align:right;">3.104±1.119</td><td style="text-align:right;">2.300±0.911</td><td style="text-align:right;">0.980±0.043</td><td style="text-align:right;">0.036±0.009</td><td style="text-align:right;">0.032±0.016</td><td style="text-align:right;">0.934±0.011</td></tr>
-      <tr><td>BiMPAN</td><td style="text-align:right;">ACMM’23</td><td style="text-align:right;">0.915±0.087</td><td style="text-align:right;">2.984±0.601</td><td style="text-align:right;">2.257±0.552</td><td style="text-align:right;">0.984±0.005</td><td style="text-align:right;">0.017±0.019</td><td style="text-align:right;">0.035±0.015</td><td style="text-align:right;">0.949±0.026</td></tr>
-      <tr><td>ARConv</td><td style="text-align:right;">CVPR’25</td><td style="text-align:right;">0.916±0.083</td><td style="text-align:right;">2.858±0.590</td><td style="text-align:right;">2.117±0.528</td><td style="text-align:right;">0.989±0.014</td><td style="text-align:right;">0.014±0.006</td><td style="text-align:right;">0.030±0.007</td><td style="text-align:right;">0.958±0.010</td></tr>
-      <tr><td>WFANET</td><td style="text-align:right;">AAAI’25</td><td style="text-align:right;">0.917±0.088</td><td style="text-align:right;">2.855±0.618</td><td style="text-align:right;">2.095±0.422</td><td style="text-align:right;"><u>0.989±0.011</u></td><td style="text-align:right;">0.012±0.007</td><td style="text-align:right;">0.031±0.009</td><td style="text-align:right;">0.957±0.010</td></tr>
-      <tr><td>PanDiff</td><td style="text-align:right;">TGRS’23</td><td style="text-align:right;">0.898±0.090</td><td style="text-align:right;">3.297±0.235</td><td style="text-align:right;">2.467±0.166</td><td style="text-align:right;">0.980±0.019</td><td style="text-align:right;">0.027±0.108</td><td style="text-align:right;">0.054±0.047</td><td style="text-align:right;">0.920±0.077</td></tr>
-      <tr><td>SSDiff</td><td style="text-align:right;">NeurIPS’24</td><td style="text-align:right;">0.915±0.086</td><td style="text-align:right;">2.843±0.529</td><td style="text-align:right;">2.106±0.416</td><td style="text-align:right;">0.986±0.004</td><td style="text-align:right;">0.013±0.005</td><td style="text-align:right;">0.031±0.003</td><td style="text-align:right;">0.956±0.016</td></tr>
-      <tr><td>SGDiff</td><td style="text-align:right;">CVPR’25</td><td style="text-align:right;"><u>0.921±0.082</u></td><td style="text-align:right;"><u>2.771±0.511</u></td><td style="text-align:right;"><u>2.044±0.449</u></td><td style="text-align:right;">0.987±0.009</td><td style="text-align:right;"><u>0.012±0.005</u></td><td style="text-align:right;"><u>0.027±0.003</u></td><td style="text-align:right;"><u>0.960±0.006</u></td></tr>
-      <tr style="background-color:#fff4cc;">
-        <td style="white-space:nowrap; word-break:keep-all;"><b>SALAD&#8209;PAN</b></td>
-        <td style="text-align:right;"><b>Ours</b></td>
-        <td style="text-align:right;"><b>0.924±0.064</b></td>
-        <td style="text-align:right;"><b>2.689±0.135</b></td>
-        <td style="text-align:right;"><b>1.839±0.211</b></td>
-        <td style="text-align:right;"><b>0.989±0.007</b></td>
-        <td style="text-align:right;"><b>0.010±0.008</b></td>
-        <td style="text-align:right;"><b>0.021±0.004</b></td>
-        <td style="text-align:right;"><b>0.965±0.007</b></td>
+      <tr>
+        <td>PaNNet</td>
+        <td style="text-align:right;">ICCV’17</td>
+        <td style="text-align:right;">0.891±0.045</td>
+        <td style="text-align:right;">3.613±0.787</td>
+        <td style="text-align:right;">2.664±0.347</td>
+        <td style="text-align:right;">0.943±0.018</td>
+        <td style="text-align:right;">0.017±0.008</td>
+        <td style="text-align:right;">0.047±0.014</td>
+        <td style="text-align:right;">0.937±0.015</td>
+      </tr>
+      <tr>
+        <td>FusionNet</td>
+        <td style="text-align:right;">TGRS’20</td>
+        <td style="text-align:right;">0.904±0.092</td>
+        <td style="text-align:right;">3.324±0.411</td>
+        <td style="text-align:right;">2.465±0.603</td>
+        <td style="text-align:right;">0.958±0.023</td>
+        <td style="text-align:right;">0.024±0.011</td>
+        <td style="text-align:right;">0.036±0.016</td>
+        <td style="text-align:right;">0.940±0.019</td>
+      </tr>
+      <tr>
+        <td>LAGConv</td>
+        <td style="text-align:right;">AAAI’22</td>
+        <td style="text-align:right;">0.910±0.114</td>
+        <td style="text-align:right;">3.104±1.119</td>
+        <td style="text-align:right;">2.300±0.911</td>
+        <td style="text-align:right;">0.980±0.043</td>
+        <td style="text-align:right;">0.036±0.009</td>
+        <td style="text-align:right;">0.032±0.016</td>
+        <td style="text-align:right;">0.934±0.011</td>
+      </tr>
+      <tr>
+        <td>BiMPAN</td>
+        <td style="text-align:right;">ACMM’23</td>
+        <td style="text-align:right;">0.915±0.087</td>
+        <td style="text-align:right;">2.984±0.601</td>
+        <td style="text-align:right;">2.257±0.552</td>
+        <td style="text-align:right;">0.984±0.005</td>
+        <td style="text-align:right;">0.017±0.019</td>
+        <td style="text-align:right;">0.035±0.015</td>
+        <td style="text-align:right;">0.949±0.026</td>
+      </tr>
+      <tr>
+        <td>ARConv</td>
+        <td style="text-align:right;">CVPR’25</td>
+        <td style="text-align:right;">0.916±0.083</td>
+        <td style="text-align:right;">2.858±0.590</td>
+        <td style="text-align:right;">2.117±0.528</td>
+        <td style="text-align:right;">0.989±0.014</td>
+        <td style="text-align:right;">0.014±0.006</td>
+        <td style="text-align:right;">0.030±0.007</td>
+        <td style="text-align:right;">0.958±0.010</td>
+      </tr>
+      <tr>
+        <td>WFANET</td>
+        <td style="text-align:right;">AAAI’25</td>
+        <td style="text-align:right;">0.917±0.088</td>
+        <td style="text-align:right;">2.855±0.618</td>
+        <td style="text-align:right;">2.095±0.422</td>
+        <td style="text-align:right;"><u>0.989±0.011</u></td>
+        <td style="text-align:right;">0.012±0.007</td>
+        <td style="text-align:right;">0.031±0.009</td>
+        <td style="text-align:right;">0.957±0.010</td>
+      </tr>
+      <tr>
+        <td>PanDiff</td>
+        <td style="text-align:right;">TGRS’23</td>
+        <td style="text-align:right;">0.898±0.090</td>
+        <td style="text-align:right;">3.297±0.235</td>
+        <td style="text-align:right;">2.467±0.166</td>
+        <td style="text-align:right;">0.980±0.019</td>
+        <td style="text-align:right;">0.027±0.108</td>
+        <td style="text-align:right;">0.054±0.047</td>
+        <td style="text-align:right;">0.920±0.077</td>
+      </tr>
+      <tr>
+        <td>SSDiff</td>
+        <td style="text-align:right;">NeurIPS’24</td>
+        <td style="text-align:right;">0.915±0.086</td>
+        <td style="text-align:right;">2.843±0.529</td>
+        <td style="text-align:right;">2.106±0.416</td>
+        <td style="text-align:right;">0.986±0.004</td>
+        <td style="text-align:right;">0.013±0.005</td>
+        <td style="text-align:right;">0.031±0.003</td>
+        <td style="text-align:right;">0.956±0.016</td>
+      </tr>
+      <tr>
+        <td>SGDiff</td>
+        <td style="text-align:right;">CVPR’25</td>
+        <td style="text-align:right;"><u>0.921±0.082</u></td>
+        <td style="text-align:right;"><u>2.771±0.511</u></td>
+        <td style="text-align:right;"><u>2.044±0.449</u></td>
+        <td style="text-align:right;">0.987±0.009</td>
+        <td style="text-align:right;"><u>0.012±0.005</u></td>
+        <td style="text-align:right;"><u>0.027±0.003</u></td>
+        <td style="text-align:right;"><u>0.960±0.006</u></td>
+      </tr>
+      <tr>
+        <td style="background-color:#fff4cc; white-space:nowrap; word-break:keep-all;"><b>SALAD&#8209;PAN</b></td>
+        <td style="background-color:#fff4cc; text-align:right;"><b>Ours</b></td>
+        <td style="background-color:#fff4cc; text-align:right;"><b>0.924±0.064</b></td>
+        <td style="background-color:#fff4cc; text-align:right;"><b>2.689±0.135</b></td>
+        <td style="background-color:#fff4cc; text-align:right;"><b>1.839±0.211</b></td>
+        <td style="background-color:#fff4cc; text-align:right;"><b>0.989±0.007</b></td>
+        <td style="background-color:#fff4cc; text-align:right;"><b>0.010±0.008</b></td>
+        <td style="background-color:#fff4cc; text-align:right;"><b>0.021±0.004</b></td>
+        <td style="background-color:#fff4cc; text-align:right;"><b>0.965±0.007</b></td>
       </tr>
     </tbody>
   </table>
