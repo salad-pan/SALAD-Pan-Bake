@@ -117,7 +117,17 @@ Coming soon.
       <tr><td>PanDiff</td><td style="text-align:right;">TGRS’23</td><td style="text-align:right;">0.898±0.090</td><td style="text-align:right;">3.297±0.235</td><td style="text-align:right;">2.467±0.166</td><td style="text-align:right;">0.980±0.019</td><td style="text-align:right;">0.027±0.108</td><td style="text-align:right;">0.054±0.047</td><td style="text-align:right;">0.920±0.077</td></tr>
       <tr><td>SSDiff</td><td style="text-align:right;">NeurIPS’24</td><td style="text-align:right;">0.915±0.086</td><td style="text-align:right;">2.843±0.529</td><td style="text-align:right;">2.106±0.416</td><td style="text-align:right;">0.986±0.004</td><td style="text-align:right;">0.013±0.005</td><td style="text-align:right;">0.031±0.003</td><td style="text-align:right;">0.956±0.016</td></tr>
       <tr><td>SGDiff</td><td style="text-align:right;">CVPR’25</td><td style="text-align:right;"><u>0.921±0.082</u></td><td style="text-align:right;"><u>2.771±0.511</u></td><td style="text-align:right;"><u>2.044±0.449</u></td><td style="text-align:right;">0.987±0.009</td><td style="text-align:right;"><u>0.012±0.005</u></td><td style="text-align:right;"><u>0.027±0.003</u></td><td style="text-align:right;"><u>0.960±0.006</u></td></tr>
-      <tr style="background-color:#fff4cc;"><td><b>SALAD&#8209;Pan</b></td><td style="text-align:right;"><b>Ours</b></td><td style="text-align:right;"><b>0.924±0.064</b></td><td style="text-align:right;"><b>2.689±0.135</b></td><td style="text-align:right;"><b>1.839±0.211</b></td><td style="text-align:right;"><b>0.989±0.007</b></td><td style="text-align:right;"><b>0.010±0.008</b></td><td style="text-align:right;"><b>0.021±0.004</b></td><td style="text-align:right;"><b>0.965±0.007</b></td></tr>
+      <tr style="background-color:#fff4cc;">
+        <td style="white-space:nowrap; word-break:keep-all;"><b>SALAD&#8209;PAN</b></td>
+        <td style="text-align:right;"><b>Ours</b></td>
+        <td style="text-align:right;"><b>0.924±0.064</b></td>
+        <td style="text-align:right;"><b>2.689±0.135</b></td>
+        <td style="text-align:right;"><b>1.839±0.211</b></td>
+        <td style="text-align:right;"><b>0.989±0.007</b></td>
+        <td style="text-align:right;"><b>0.010±0.008</b></td>
+        <td style="text-align:right;"><b>0.021±0.004</b></td>
+        <td style="text-align:right;"><b>0.965±0.007</b></td>
+      </tr>
     </tbody>
   </table>
 </div>
