@@ -245,14 +245,11 @@ Coming soon.
 If you make use of our work, please cite our paper.
 
 ```bibtex
-@misc{li2026_saladpan,
-      title={SALAD-Pan: Sensor-Agnostic Latent Adaptive Diffusion for Pan-Sharpening}, 
-      author={Junjie Li and Congyang Ou and Haokui Zhang and Guoting Wei and Shengqin Jiang and Ying Li and Chunhua Shen},
-      year={2026},
-      eprint={2602.04473},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2602.04473}, 
+@article{li2026saladpan,
+  title={SALAD-Pan: Sensor-Agnostic Latent Adaptive Diffusion for Pan-Sharpening},
+  author={Junjie Li and Congyang Ou and Haokui Zhang and Guoting Wei and Shengqin Jiang and Ying Li and Chunhua Shen},
+  journal={arXiv preprint arXiv:2602.04473},
+  year={2026}
 }
 ```
 
