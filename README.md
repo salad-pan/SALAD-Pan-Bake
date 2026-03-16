@@ -1,6 +1,5 @@
 # SALAD-Pan: Sensor-Agnostic Latent Adaptive Diffusion for Pan-Sharpening
 
-<br/>
 [Junjie Li](https://scholar.google.com/citations?hl=en&user=Jo_8lVcAAAAJ), 
 [Congyang Ou](https://github.com/ocy1), 
 [Haokui Zhang](https://scholar.google.com/citations?hl=en&user=m3gPwCoAAAAJ), 
@@ -8,6 +7,7 @@
 [Shengqin Jiang](https://ieeexplore.ieee.org/author/37086409411), 
 [Ying Li](https://teacher.nwpu.edu.cn/2005000096.html), 
 [Chunhua Shen](https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ)
+
 <br/>
 
 [![arXiv](https://img.shields.io/badge/arXiv-2602.04473-b31b1b.svg)](https://arxiv.org/abs/2602.04473)
