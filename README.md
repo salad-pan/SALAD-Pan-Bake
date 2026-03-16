@@ -1,8 +1,5 @@
 # SALAD-Pan: Sensor-Agnostic Latent Adaptive Diffusion for Pan-Sharpening
 
-<!-- This repository is the official implementation of [SALAD-Pan](https://arxiv.org/abs/2602.04473). -->
-
-<!-- **[SALAD-Pan: Sensor-Agnostic Latent Adaptive Diffusion for Pan-Sharpening](https://arxiv.org/abs/2602.04473)** -->
 <br/>
 [Junjie Li](https://scholar.google.com/citations?hl=en&user=Jo_8lVcAAAAJ), 
 [Congyang Ou](https://github.com/ocy1), 
