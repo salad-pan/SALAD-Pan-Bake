@@ -1,8 +1,8 @@
-# SALAD-Pan
+# SALAD-Pan: Sensor-Agnostic Latent Adaptive Diffusion for Pan-Sharpening
 
-This repository is the official implementation of [SALAD-Pan](https://arxiv.org/abs/2602.04473).
+<!-- This repository is the official implementation of [SALAD-Pan](https://arxiv.org/abs/2602.04473). -->
 
-**[SALAD-Pan: Sensor-Agnostic Latent Adaptive Diffusion for Pan-Sharpening](https://arxiv.org/abs/2602.04473)**
+<!-- **[SALAD-Pan: Sensor-Agnostic Latent Adaptive Diffusion for Pan-Sharpening](https://arxiv.org/abs/2602.04473)** -->
 <br/>
 [Junjie Li](https://scholar.google.com/citations?hl=en&user=Jo_8lVcAAAAJ), 
 [Congyang Ou](https://github.com/ocy1), 
@@ -13,9 +13,11 @@ This repository is the official implementation of [SALAD-Pan](https://arxiv.org/
 [Chunhua Shen](https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ)
 <br/>
 
-[![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://salad-pan.github.io)
 [![arXiv](https://img.shields.io/badge/arXiv-2602.04473-b31b1b.svg)](https://arxiv.org/abs/2602.04473)
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/xxfer/SALAD-Pan)
+[![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://salad-pan.github.io)
+[![Python Version](https://img.shields.io/badge/Python-3.10.12-blue)](https://www.python.org/)
+[![Pytorch Version](https://img.shields.io/badge/Pytorch-2.10-yellow)](https://pytorch.org/)
 
 <p align="center">
   <a href="https://salad-pan.github.io/assets/fig1.pdf">
