@@ -28,6 +28,8 @@
   </a>
 </p>
 
+## Overview
+
 <p align="center">
   <a href="https://salad-pan.github.io/assets/fig1.pdf">
     <img src="https://salad-pan.github.io/assets/fig1.webp" alt="Structure" width="100%" />
@@ -35,6 +37,15 @@
   <br/>
   <em>Given a PAN–LRMS image pair, SALAD-Pan fine-tunes a pre-trained diffusion model to generate a HRMS.</em>
 </p>
+
+## Contents
+
+- [News](#news)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Results](#results)
+- [Citation](#citation)
+- [Shoutouts](#shoutouts)
 
 ## News
 <!-- ### 🚨 Announcing [](): A CVPR competition for AI-based xxxxxx! Submissions due xxx x. Don't miss out! 🤩  -->
@@ -50,8 +61,11 @@
 git clone https://github.com/JJLibra/SALAD-Pan.git
 cd SALAD-Pan
 
+conda create -n saladpan python=3.10 -y
+conda activate saladpan
 pip install -r requirements.txt
 
+# This project depends on a modified local version of `diffusers` under `./diffusers`.
 cd diffusers
 pip install -e .
 ```
