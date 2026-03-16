@@ -1,20 +1,32 @@
-# SALAD-Pan: Sensor-Agnostic Latent Adaptive Diffusion for Pan-Sharpening
+<h2 align="center">SALAD-Pan: Sensor-Agnostic Latent Adaptive Diffusion for Pan-Sharpening</h2>
 
-[Junjie Li](https://scholar.google.com/citations?hl=en&user=Jo_8lVcAAAAJ), 
-[Congyang Ou](https://github.com/ocy1), 
-[Haokui Zhang](https://scholar.google.com/citations?hl=en&user=m3gPwCoAAAAJ), 
-[Guoting Wei](https://scholar.google.com/citations?hl=en&user=NW8rUFkAAAAJ), 
-[Shengqin Jiang](https://ieeexplore.ieee.org/author/37086409411), 
-[Ying Li](https://teacher.nwpu.edu.cn/2005000096.html), 
-[Chunhua Shen](https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ)
+<p align="center">
+  <a href="https://scholar.google.com/citations?hl=en&user=Jo_8lVcAAAAJ">Junjie Li</a> ·
+  <a href="https://github.com/ocy1">Congyang Ou</a> ·
+  <a href="https://scholar.google.com/citations?hl=en&user=m3gPwCoAAAAJ">Haokui Zhang</a> ·
+  <a href="https://scholar.google.com/citations?hl=en&user=NW8rUFkAAAAJ">Guoting Wei</a> ·
+  <a href="https://ieeexplore.ieee.org/author/37086409411">Shengqin Jiang</a> ·
+  <a href="https://teacher.nwpu.edu.cn/2005000096.html">Ying Li</a> ·
+  <a href="https://scholar.google.com/citations?hl=en&user=Ljk2BvIAAAAJ">Chunhua Shen</a>
+</p>
 
-<br/>
-
-[![arXiv](https://img.shields.io/badge/arXiv-2602.04473-b31b1b.svg)](https://arxiv.org/abs/2602.04473)
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/xxfer/SALAD-Pan)
-[![Project Website](https://img.shields.io/badge/Project-Website-orange)](https://salad-pan.github.io)
-[![Python Version](https://img.shields.io/badge/Python-3.10.12-blue)](https://www.python.org/)
-[![Pytorch Version](https://img.shields.io/badge/Pytorch-2.10-yellow)](https://pytorch.org/)
+<p align="center">
+  <a href="https://arxiv.org/abs/2602.04473">
+    <img src="https://img.shields.io/badge/arXiv-2602.04473-b31b1b.svg" alt="arXiv">
+  </a>
+  <a href="https://huggingface.co/xxfer/SALAD-Pan">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue" alt="Hugging Face Spaces">
+  </a>
+  <a href="https://salad-pan.github.io">
+    <img src="https://img.shields.io/badge/Project-Website-orange" alt="Project Website">
+  </a>
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.10.12-blue" alt="Python Version">
+  </a>
+  <a href="https://pytorch.org/">
+    <img src="https://img.shields.io/badge/PyTorch-2.10-yellow" alt="PyTorch Version">
+  </a>
+</p>
 
 <p align="center">
   <a href="https://salad-pan.github.io/assets/fig1.pdf">
